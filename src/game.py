@@ -18,6 +18,7 @@ class Game:
             self.clock.tick(FPS)
             self.events()
             self.update()
+   
             self.draw()
 
     def events(self):
